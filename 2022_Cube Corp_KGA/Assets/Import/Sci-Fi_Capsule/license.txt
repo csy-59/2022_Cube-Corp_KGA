@@ -1,0 +1,11 @@
+Model Information:
+* title:	Sci-Fi Capsule
+* source:	https://sketchfab.com/3d-models/sci-fi-capsule-25a6c93f3c9148e8931c36421b6a6eb7
+* author:	Xavi Pujadas (https://sketchfab.com/XaviPujadas)
+
+Model License:
+* license type:	CC-BY-NC-ND-4.0 (http://creativecommons.org/licenses/by-nc-nd/4.0/)
+* requirements:	Author must be credited. No commercial use. Modified versions can not be distributed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Sci-Fi Capsule" (https://sketchfab.com/3d-models/sci-fi-capsule-25a6c93f3c9148e8931c36421b6a6eb7) by Xavi Pujadas (https://sketchfab.com/XaviPujadas) licensed under CC-BY-NC-ND-4.0 (http://creativecommons.org/licenses/by-nc-nd/4.0/)
