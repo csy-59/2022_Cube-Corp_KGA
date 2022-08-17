@@ -4,9 +4,6 @@ using UnityEngine;
 
 public class LookAtMouse : MonoBehaviour
 {
-    public GameObject XRotateObejct;
-    public GameObject YRotateObejct;
-
     [SerializeField] private float limitMinX = -80;
     [SerializeField] private float limitMaxX = 50;
     [SerializeField] private float rotateYSpeed = 100;
@@ -39,10 +36,7 @@ public class LookAtMouse : MonoBehaviour
 
         eulerAngleX = ClampAngle(eulerAngleX, limitMinX, limitMaxX);
 
-        rigid.MoveRotation(Quaternion.Euler(rigid.rotation * new Vector3(eulerAngleX, eulerAngleY, 0f)));
-
-        //XRotateObejct.transform.rotation = Quaternion.Euler(eulerAngleX, 0f, 0f);
-        //YRotateObejct.transform.rotation = Quaternion.Euler(0f, eulerAngleY, 0f);
+        rigid.MoveRotation(Quaternion.Euler(eulerAngleX, eulerAngleY, 0f));
     }
 
     private float ClampAngle(float angle, float min, float max)

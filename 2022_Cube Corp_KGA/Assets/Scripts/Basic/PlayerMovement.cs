@@ -22,7 +22,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void move()
     {
-        Vector3 deltaPosition = speed * Time.deltaTime * (Vector3.right * input.X + Vector3.forward * input.Z);
+        Vector3 deltaPosition = speed * Time.deltaTime * (rigidBody.transform.right * input.X + rigidBody.transform.forward * input.Z);
         Vector3 newPosition = transform.position + deltaPosition;
 
         rigidBody.MovePosition(newPosition);
